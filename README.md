@@ -9,8 +9,8 @@ Tried to separate the core library from view files (maybe later templating).
 
 At the moment not a working system since lack of installation or admin files.
 
-Work in progress - my personal fun project ;)
+**Work in progress** - my personal fun project ;)
 
-**AL 2014**
+**&copy; AL 2014**
 
 
