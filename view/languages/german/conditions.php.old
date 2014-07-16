@@ -1,0 +1,416 @@
+<?php
+/*
+  $Id: conditions.php,v 1.5 2003/07/11 09:04:22 jan0815 Exp $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2002 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+define('NAVBAR_TITLE', 'Allgemeine Gesch&auml;ftsbedingungen');
+define('HEADING_TITLE', 'Allgemeine Gesch&auml;ftsbedingungen');
+define('TEXT_CLOSE_WINDOW', 'Fenster schlie&szlig;en');
+
+define('TEXT_INFORMATION', '
+
+<table borderColor="#6f3700" cellSpacing="2" align="center" cellPadding="5" width="1003" border="0" id="table1">
+	<tr>
+		<td vAlign="top" bgColor="#d19d76">&nbsp;<table cellSpacing="0" cellPadding="0" width="100%" border="0" id="table2">
+			<tr>
+				<td class="main">
+				<div align="center">
+					<table cellSpacing="0" cellPadding="0" align="center" border="0" id="table3">
+						<tr>
+							<td vAlign="top" width="490">
+							<div align="center">
+								<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#993300" size="5">
+								<b>
+								<img height="60" src="http://www.berliner-kaffeeroesterei.de/extras/headlines/schriftzug_unterzeile.gif" width="430" border="0"></b></font></div>
+							</td>
+						</tr>
+						<tr>
+							<td vAlign="top" width="490">
+							<div align="center">
+								<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#993300" size="2">
+								<br>
+								<a href="#herstell">Herstellungsverfahren</a> |
+								<a href="#rohware">Rohware</a> |
+								<a href="#liefer">Lieferbedingungen</a></font> 
+								<p>
+								<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#993300" size="1">
+								<a href="#preise">Preise</a> |
+								<a target="_self" href="#bezahlung">Bezahlung</a> 
+								| <a href="#lieferung">Lieferung</a> |
+								<a href="#versandspesen">Versandspesen</a> |
+								<nobr><a href="#umtausch">Umtausch und Rückgabe</a></nobr> 
+								| <a href="#reklamation">Reklamationen</a> |
+								<nobr><a href="#sonstige">Sonstige 
+								Lieferbedingungen</a></nobr></font></p>
+								<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#993300" size="2">
+								<table cellSpacing="0" cellPadding="0" width="100%" border="0" id="table4">
+									<tr>
+										<td vAlign="top" align="middle">
+										<table cellSpacing="0" cellPadding="4" width="450" bgColor="#f4a460" border="0" id="table5">
+											<tr bgColor="#f4a460">
+												<td vAlign="top" align="left" bgColor="#993300">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white" size="4">
+												Liebe Kaffee-Genießer,</font></td>
+											</tr>
+											<tr bgColor="#f4a460">
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												wir möchten, daß Sie mit uns 
+												zufrieden sind. Gerne nehmen wir 
+												Anregungen, Kritik und Meinungen 
+												von Ihnen entgegen und werden 
+												uns bemühen, unser Angebot 
+												ständig zu erweitern und 
+												auszubauen.</font> 
+												<p>&nbsp;</td>
+											</tr>
+											<tr bgColor="#f4a460">
+												<td vAlign="top" bgColor="#f4a460">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<i>HERSTELLUNGSVERFAHREN:</i></font></td>
+											</tr>
+											<tr bgColor="#f4a460">
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Alle Kaffees werden im 
+												sogenannten traditionellen 
+												Röstverfahren geröstet. Hierbei 
+												werden die Kaffeebohnen nach 
+												alter Art, mit einer relativ 
+												niedrigen Temperatur über einen 
+												längeren Zeitraum sorgfältig 
+												geröstet. Infolge dieses manuell 
+												gesteuerten Röstverfahrens hat 
+												der Kaffee eine nur noch geringe 
+												Restsäure, wodurch er wesentlich 
+												bekömmlicher ist.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#f4a460">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<i>ROHWARE:</i></font></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Alle Rohkaffees - zum größten 
+												Teil Hochland-Kaffees - kommen 
+												aus den besten Anbaugebieten wie 
+												Columbien, Guatemala, Costa 
+												Rica, Brasilien, Kenia, Mexico 
+												usw. Als Kaffee-Hochgewächse 
+												werden Kaffees von Plantagen 
+												bezeichnet, die in Hochlagen 
+												zwischen 1200 - 1800 m ü. M. 
+												liegen. In diesen Hochlagen 
+												werden im wesentlichen 
+												Arabica-Sorten angebaut. Die 
+												Bedingungen für das Wachstum der 
+												Kaffeepflanzen sind in diesen 
+												Regionen sehr erschwert, so daß 
+												die ganze Kraft der Pflanze in 
+												die Kaffeebohnen geht. Diese 
+												Kaffeebohnen sind dadurch 
+												besonders aromatisch und ergeben 
+												die begehrtesten und 
+												hochwertigsten Kaffeesorten.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#f4a460">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<i>LIEFERBEDINGUNGEN:</i></font></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Preise:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Alle Preise in unserem 
+												Online-Shop sind Bruttopreise, 
+												d.h. einschließlich der 
+												gesetzlichen Mehrwertsteuer. Die 
+												Preise für Rohkaffee sind 
+												ständigen, heftigen Schwankungen 
+												unterworfen. Deshalb sind 
+												stabile Preise nur schwer zu 
+												gewährleisten.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Bezahlung:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Grundsätzlich liefern wir gegen 
+												Rechnung. Bei Erstbestellungen 
+												behalten wir uns im Einzelfall 
+												vor, gegen Vorkasse oder per 
+												Nachnahme (zzgl. Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												5,20) zu beliefern. Im 
+												Einzelfall und bei einem 
+												Warenwert ab ca. Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												150,- behalten wir uns vor, 
+												gegen Vorkasse oder per 
+												Nachnahme (zzgl. Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												5,20) zu liefern. <br>
+												Bei Auslandsbestellungen liefern 
+												wir gegen Kreditkartenzahlung.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Lieferung:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Sobald Ihre Bestellung bei uns 
+												eingegangen ist, wird sie sofort 
+												bearbeitet. Wir bemühen uns, die 
+												Lieferzeiten so kurz wie möglich 
+												zu halten und in der Regel 
+												werden die von Ihnen bestellten 
+												Artikel binnen weniger Tage bei 
+												Ihnen eintreffen. Sollte sich 
+												die Lieferung verzögern - z.B. 
+												weil wir einen Artikel 
+												vorübergehend nicht auf Lager 
+												haben - oder sollte ein Artikel 
+												einmal vergriffen sein, werden 
+												wir Sie umgehend 
+												benachrichtigen. Wenn Sie Ihre 
+												Ware zu einem bestimmten Termin 
+												benötigen, so teilen Sie es uns 
+												auf dem Adressformular bitte 
+												mit. </font></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Wir beliefern Sie per 
+												Postversand oder durch einen 
+												Zustelldienst.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Versandspesen:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Ab einem Warenwert von Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												75,- liefern wir innerhalb 
+												Deutschlands Versand- und 
+												Verpackungskostenfrei. Bei einem 
+												Warenwert bis Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												75,- beträgt der Versand- und 
+												Verpackungskostenanteil Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												4,95. Die bei einer Nachnahme 
+												zusätzlich entstehenden Kosten 
+												von Euro</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												</font>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												2,90 trägt in jedem Fall der 
+												Empfänger. Bei Versand ins 
+												Ausland berechnen wir gesonderte
+												<a target="display" href="http://www.berliner-kaffeeroesterei.de/auslandsversandkosten.php">
+												Kosten entsprechend der Liste</a>.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Umtausch und Rückgabe:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Bei Kaffee und auch bei allen 
+												sonstigen von uns bezogenen 
+												Lebensmitteln besteht kein 
+												Umtausch- bzw. Rückgaberecht.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Reklamationen:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Wir stellen sehr hohe Ansprüche 
+												an die Qualität unserer 
+												Produkte. Dies gilt ebenso für 
+												unseren Service Ihnen gegenüber. 
+												Bitte überprüfen Sie die 
+												Lieferung immer sofort auf 
+												Vollständigkeit und eventuelle 
+												Mängel. Transportschäden sind 
+												eher selten. Wenn jedoch die 
+												Päckchen beschädigt sind, lassen 
+												Sie es sich bitte vom Zusteller 
+												bescheinigen und geben Sie uns 
+												Bescheid. Bei fehlerhafter 
+												Lieferung geben Sie uns bitte 
+												sofort schriftlich Bescheid. Die 
+												Reklamationsfrist beträgt acht 
+												Tage.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												<b>Sonstige Lieferbedingungen:</b></font></td>
+											</tr>
+											<tr height="1">
+												<td vAlign="top" bgColor="#993300" height="1">
+												<img height="1" src="http://www.berliner-kaffeeroesterei.de/../extras/buttons_neu/Abstandhalter.gif" width="1" border="0"></td>
+											</tr>
+											<tr>
+												<td vAlign="top" bgColor="#ffcc99">
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2">
+												Das Angebot ist freibleibend, 
+												d.h. den Zwischenverkauf 
+												behalten wir uns vor. Die Ware 
+												bleibt bis zur vollständigen 
+												Bezahlung unser Eigentum. 
+												Gerichtsstand ist Berlin.</font> 
+												<p>
+												<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1">
+												<a href="#seitenanfang">zum 
+												Seitenanfang</a></font></p>
+												<p>&nbsp;</td>
+											</tr>
+										</table>
+										</td>
+									</tr>
+								</table>
+								</font>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<table cellSpacing="0" cellPadding="0" width="100%" border="0" id="table6">
+									<tr>
+										<td vAlign="top" align="middle">&nbsp;</td>
+									</tr>
+								</table>
+							</div>
+							</td>
+						</tr>
+						<tr>
+							<td vAlign="top" width="490">
+							<div align="center">
+								<table height="100%" cellSpacing="0" cellPadding="0" width="100%" align="left" border="0" id="table7">
+									<tr height="100%">
+										<td vAlign="bottom" height="100%">
+										<div align="center">
+											<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#cc6600" size="1">
+											<hr width="80%" SIZE="1">
+											<a target="_blank" href="http://www.berliner-kaffeeroesterei.de/">
+											www.berliner-kaffeeroesterei.de</a>, 
+											© 2005<a href="mailto:kontakt@berliner-kaffeeroesterei.de">Berliner 
+											Kaffeerösterei</a><nobr><br>
+&nbsp;</nobr></font></div>
+										</td>
+									</tr>
+								</table>
+							</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+');
+?>

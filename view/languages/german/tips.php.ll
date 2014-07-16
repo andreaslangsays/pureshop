@@ -1,0 +1,153 @@
+<?php
+// heutiges Datum ermitteln
+$kool='';
+if (isset($_GET['osCsid']){$kool='&osCsid='.$_GET['osCsid']}
+$heute = date("m.d");
+//echo $heute; /////<- war nur zu Testzwecken nötig
+//Definieren der Veranstaltungen:
+/***************************************************************************************************************************************************************
+Diese Datei bezieht sich auf shop/static/Veranstaltungen.php
+jede if-Abfrage wird mit dem Veranstaltungsdatum in Monat.Tag-Formatierung vorbereitet ($vera)
+der Link innerhalb des HTML-Blocks beinhaltet die Übergabe von schoko mit Wert, dieser Wert muß in Veranstaltungen.php ausgewertet werden
+der entsprechende Bereich ist der Anfang des Body-Bereichs
+$bereits=1 entspricht der break-Anweisung in swich [Andreas Lang 22.02.2007] [* Muß noch optimiert werden!*]
+******************************************************************************************************************************************************************/
+$bereits=0;
+$vera='02.27';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:0.8em;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=1">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/>Schokoladenverkostung mit Stéphane Bonnat</b /><br />
+Termin: 27.02.2007 19.30 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 2 Stunden<br />
+Preis: 18 €<br />
+Kartenvorbestellung unter:<br />
+030 - 88 67 79 20<br />
+</a />
+</div />';
+$bereits=1;
+}
+
+$vera='03.01';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.5em;padding:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:0.8em;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=2">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/> Tortenkurs II: Buttercremetorten</b /><br />
+Termin: 01.03.2007 17.00 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 4 Stunden (mit Pause)<br />
+Preis: 75 €<br />
+Reservierung unter:<br />
+030 - 88 67 79 20<br />
+</a />
+</div />';
+$bereits=1;
+}
+
+$vera='03.13';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.3em;padding:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:0.8em;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=3">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/> Kaffeezubereitung zu Hause</b /><br />
+Termin: 13.03.2007 18.00 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 2 Stunden<br />
+Preis: 19,50 €<br />
+Reservierung unter:<br />
+030 - 88 67 79 20<br />
+</a />
+</div />';
+$bereits=1;
+}
+
+$vera='03.22';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.3em;padding:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:8pt;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=4">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/> Kaffeeverkostung</b /><br />
+Termin: 22.03.2007 18.00 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 1 1/2 Stunden<br />
+Preis: 18,60 €<br />
+Reservierung unter:<br />
+030 - 88 67 79 20<br />
+</a />&nbsp;<br />
+</div />';
+$bereits=1;
+}
+$vera='03.29';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.3em;padding:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:8pt;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=6">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/> Tortenkurs III Moussetorten</b /><br />
+Termin: 29.03.2007 17.00 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 4 Stunden (mit Pause)<br />
+Preis: 79,- €<br />
+Reservierung unter:<br />
+030 - 88 67 79 20<br />
+</a />&nbsp;<br />
+</div />';
+$bereits=1;
+}
+$vera='04.19';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.3em;padding:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:8pt;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=7'.$kool.'">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/> Kaffeeverkostung</b /><br />
+Termin: 19.04.2007 18.00 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 1 1/2 Stunden<br />
+Preis: 18,60 €<br />
+Reservierung unter:<br />
+030 - 88 67 79 20<br />
+</a />&nbsp;<br />
+</div />';
+$bereits=1;
+}
+
+$vera='05.17';
+if ($heute<=$vera && $bereits==0){
+echo'
+<div style="width:250px;border-style:solid;border-width:0.3em;padding:0.5em;border-color:#6F3700;font-family:Arial, Helvetica;font-size:8pt;background-color:#FFBB77" />
+<a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?schoko=8'.$kool.'">
+<font color="red" size=2 />
++ + + Veranstaltungstipp + + +</font><br />
+<b/> Kaffeeverkostung</b /><br />
+Termin: 17.05.2007 18.00 Uhr<br />
+Ort: Berliner Kaffeerösterei<br/ >
+Uhlandstraße 173<br />
+Dauer: 1 1/2 Stunden<br />
+Preis: 18,60 €<br />
+Reservierung unter:<br />
+030 - 88 67 79 20<br />
+</a />&nbsp;<br />
+</div />';
+$bereits=1;
+}
+?>

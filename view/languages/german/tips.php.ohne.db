@@ -1,0 +1,102 @@
+<?php
+// heutiges Datum ermitteln
+$kool='';
+if(isset($_GET['osCzid'])){$kool='&osCzid='.$_GET['osCzid'];}
+$heute = date("m.d");
+//echo $heute; /////<- war nur zu Testzwecken nötig
+//Definieren der Veranstaltungen:
+/***************************************************************************************************************************************************************
+Diese Datei bezieht sich auf shop/static/Veranstaltungen.php
+jede if-Abfrage wird mit dem Veranstaltungsdatum in Monat.Tag-Formatierung vorbereitet ($vera)
+der Link innerhalb des HTML-Blocks beinhaltet die Übergabe von schoko mit Wert, dieser Wert muß in Veranstaltungen.php ausgewertet werden
+der entsprechende Bereich ist der Anfang des Body-Bereichs
+$bereits=1 entspricht der break-Anweisung in switch [Andreas Lang 22.02.2007] [* Muß noch optimiert werden!*]
+******************************************************************************************************************************************************************/
+$bereits='0';
+
+$vera='09.13';
+if ($heute<=$vera && $bereits==0){
+?>
+<div style="width:270px; height:240px; font-family:verdana, Helvetica;font-size:8pt; background-image:url(tips.jpg) ;" />
+<div style="position:relative; top:200px; left:40px; font-size:12px ; font-family:verdana ; text-align: center; color: #742707 ;">
+<b/> Kaffeeverkostung</b /><br />
+</div>
+<div style="position:relative; top:70px; left:10px; color: #742707 ;">
+<b>Wann</b>: 13.09.2007<br />
+<b>Um</b>: 18.00 Uhr<br />
+<b>Wo</b>: hier bei uns<br/ >
+<b>Dauer</b>: 1.5 Std<br />
+<b>Preis</b>: 18,60 €<br /><br>
+<b>Mehr Infos</b>: <br /><a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?kaffee=8<? echo $kool;?>">hier klicken</a />
+&nbsp;<br />
+</div />
+<?PHP
+$bereits=1;
+}
+
+$vera='10.18';
+if ($heute<=$vera && $bereits==0){
+?>
+<div style="width:270px; height:240px; font-family:verdana, Helvetica;font-size:8pt; background-image:url(tips.jpg) ;" />
+<div style="position:relative; top:200px; left:40px; font-size:12px ; font-family:verdana ; text-align: center; color: #742707 ;">
+<b/> Kaffeeverkostung</b /><br />
+</div>
+<div style="position:relative; top:70px; left:10px; color: #742707 ;">
+<b>Wann</b>: 18.10.2007<br />
+<b>Um</b>: 18.00 Uhr<br />
+<b>Wo</b>: hier bei uns<br/ >
+<b>Dauer</b>: 1.5 Std<br />
+<b>Preis</b>: 18,60 €<br /><br>
+<b>Mehr Infos</b>: <br /><a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?kaffee=9<?echo $kool;?>">hier klicken</a />
+&nbsp;<br />
+</div />
+<?PHP
+$bereits=1;
+}
+
+
+$vera='11.15';
+if ($heute<=$vera && $bereits==0){
+?>
+<div style="width:270px; height:240px; font-family:verdana, Helvetica;font-size:8pt; background-image:url(tips.jpg) ;" />
+<div style="position:relative; top:200px; left:40px; font-size:12px ; font-family:verdana ; text-align: center; color: #742707 ;">
+<b/> Kaffeeverkostung</b /><br />
+</div>
+<div style="position:relative; top:70px; left:10px; color: #742707 ;">
+<b>Wann</b>: 15.11.2007<br />
+<b>Um</b>: 18.00 Uhr<br />
+<b>Wo</b>: hier bei uns<br/ >
+<b>Dauer</b>: 1.5 Std<br />
+<b>Preis</b>: 18,60 €<br /><br>
+<b>Mehr Infos</b>: <br /><a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?kaffee=10<?echo $kool;?>">hier klicken</a />
+&nbsp;<br />
+</div />
+<?PHP
+$bereits=1;
+}
+
+$vera='12.13';
+if ($heute<=$vera && $bereits==0){
+?>
+<div style="width:270px; height:240px; font-family:verdana, Helvetica;font-size:8pt; background-image:url(tips.jpg) ;" />
+<div style="position:relative; top:200px; left:40px; font-size:12px ; font-family:verdana ; text-align: center; color: #742707 ;">
+<b/> Kaffeeverkostung</b /><br />
+</div>
+<div style="position:relative; top:70px; left:10px; color: #742707 ;">
+<b>Wann</b>: 13.12.2007<br />
+<b>Um</b>: 18.00 Uhr<br />
+<b>Wo</b>: hier bei uns<br/ >
+<b>Dauer</b>: 1.5 Std<br />
+<b>Preis</b>: 18,60 €<br /><br>
+<b>Mehr Infos</b>: <br /><a href="http://www.berliner-kaffeeroesterei.de/shop/static/veranstaltungen.php?kaffee=11<?echo $kool;?>">hier klicken</a />
+&nbsp;<br />
+</div />
+<?PHP
+$bereits=1;
+}
+
+
+
+
+
+?>

@@ -1,0 +1,25 @@
+<table border="0" cellspacing="5" cellpadding="0">
+  <tr>
+    <td colspan=2><P align=left><FONT face="Verdana, Arial, Helvetica, sans-serif" size=2>
+
+<strong>Onlineshop der BERLINER KAFFEERÖSTEREI:</strong><br>
+<img src="http://www.berliner-kaffeeroesterei.de/shop/images/fotos/produktsample.jpg" align="right"></font><FONT face="Verdana, Arial, Helvetica, sans-serif" size=1>
+Auf unseren Seiten finden Sie ein vielfältiges Angebot an erlesenen Kaffee- und Teesorten, Köstliches aus der Welt der Konfiserie wie Kakaos und Schokoladen sowie Accessoires für den stilvollen Genuß unserer frisch gerösteten Kaffees und unserer edlen Tees.
+Alle Produkte können Sie direkt bestellen. Klicken Sie dazu lediglich auf das Warenkorbsymbol neben dem jeweiligen Produkt.
+Falls Sie eine kurze Einführung wünschen, halten wir für Sie unsere Hilfe zum Shop bereit.</FONT></P>
+
+
+
+
+
+    </td>
+  </tr>
+  <tr><td colspan="2" >
+ <?PHP include'tips.php'; ?>
+
+</td>
+</tr>
+</table>
+
+
+<!-- style="padding:0.8em;background:url(back_zdf.jpg) no-repeat 17px" -->
