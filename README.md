@@ -11,6 +11,3 @@ At the moment not a working system since lack of installation or admin files.
 
 **Work in progress** - my personal fun project ;)
 
-**&copy; AL 2014**
-
-
